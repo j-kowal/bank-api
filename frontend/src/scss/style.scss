@@ -1,3 +1,62 @@
-body {
-    
+html {
+    background-color: #fafafa !important;
+}
+
+.logo {
+    width: 400px;
+    margin-top: 16px;
+    &.top {
+        width: 360px;
+    }
+}
+
+.signup {
+    color: #FFA134;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.check {
+    background-color: #A9CF54;
+    padding: 16px;
+    border-radius: 50%;
+    color: white;
+}
+
+.sidebar {
+    width: 100px;
+    height: 100%;
+    background-color: #46483C;
+    position: fixed;
+    top: 0; left: 0;
+    flex-direction: column;
+    padding-top: 100px;
+    display: none;
+    &.visible {
+        display: flex;
+    }
+}
+
+.sidebar-icon {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #525547;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        background-color: #F26101;
+    }
+    &.active {
+        background-color: #F26101;
+    }
+}
+
+button {
+    svg {
+        margin-right: 8px;
+    }
 }
