@@ -10,7 +10,6 @@ export const get = (url, params = null) => {
         }
     })
     .then(res => res.json())
-    .then(res => JSON.stringify(res))
 }
 
 export const post = (url, params = null, data = {}) => {
@@ -24,5 +23,4 @@ export const post = (url, params = null, data = {}) => {
         body: JSON.stringify(data)
     })
     .then(res => res.json())
-    .then(res => JSON.stringify(res))
 }

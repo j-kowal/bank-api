@@ -7,7 +7,7 @@ export const login =
         <div class="column is-4 is-offset-4">
             <div class="field">
             <p class="control has-icons-left has-icons-right">
-                <input class="input is-warning is-medium" type="email" placeholder="ID">
+                <input name="id" class="input is-warning is-medium" type="number" placeholder="ID">
                 <span class="icon is-small is-left">
                 <i class="fas fa-user"></i>
                 </span>
@@ -15,7 +15,7 @@ export const login =
             </div>
             <div class="field">
             <p class="control has-icons-left">
-                <input class="input is-warning is-medium" type="password" placeholder="Password">
+                <input name="password" class="input is-warning is-medium" type="password" placeholder="Password">
                 <span class="icon is-small is-left">
                 <i class="fas fa-lock"></i>
                 </span>
@@ -113,7 +113,9 @@ export const dashboard =
     </div>
     
     <hr>
-    <h1 class="title has-text-centered">Dashboard</h1>
+    <h1 class="title has-text-centered">Welcome <span id="welcomeTxt"></span>!</h1>
+
+    <div class="accounts"></div>
 
 </div>
 `

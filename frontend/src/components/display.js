@@ -1,11 +1,56 @@
 import * as Views from './views'
 import { get, post } from './request'
+import swal from 'sweetalert2';
 
 export default class Display {
 
+    getUserDashboard() {
+        get("http://localhost:8080/BankApi/user", { id: window.state.userid }).then(res => {
+            this.app.querySelector('#welcomeTxt').innerHTML = res.firstname
+            let temp = "" 
+            res.accounts.map(acc => {
+                let transactions = ""
+                acc.transactions.map(tr => {
+                    transactions += `
+                    <div class="account-transaction">
+                        <p>${tr.id}</p>
+                        <p>${tr.type}</p>
+                        <p>${tr.value}</p>
+                        <p>${tr.date}</p>
+                        <p>${tr.balanceAfter}</p>
+                        <p>${tr.description}</p>
+                    </div>
+                    `
+                })
+                temp += `
+                <div class="account-detais">
+                    <p>Sort code: ${acc.sortCode}</p>
+                    <p>Account number: ${acc.accNumber}</p>
+                    <p>Balance: ${acc.currentBalance}</p>
+                    <div class="transactions">
+                        ${transactions}
+                    </div>
+                </div>
+                `
+            })
+            this.app.querySelector('.accounts').innerHTML = temp;
+        })
+    }
+
     signOut() {
-        window.state.authorised = false
-        this.showLogin()
+        if(!window.state.authorised) 
+            return this.showLogin()
+        
+        post("http://localhost:8080/BankApi/logout", null, {id: window.state.userid}).then(res => {
+            if(res === true) {
+                window.state.authorised = false
+                delete window.state.userid
+                this.showLogin()
+            }
+            else {
+                swal("Ooops", "Something wrong with logout...", "error")
+            }
+        })
     }
 
     showWithdrawal() {
@@ -22,6 +67,7 @@ export default class Display {
         this.removeActiveTabs()
         this.sidebarIcons[0].classList.add('active')
         this.app.innerHTML = this.views.dashboard
+        this.getUserDashboard()
     }
 
     selectScreenFromTabs(active) {
@@ -119,7 +165,22 @@ export default class Display {
         this.app.querySelector('.logo').addEventListener('click', () => { window.state.authorised = true })
 
         this.loginBtn.addEventListener('click', () => {
-            this.showDashboard()
+            let temp = {}
+            document.querySelectorAll('input').forEach(input => {
+                let key = input.getAttribute("name")
+                let val = input.value
+                temp[key] = val
+            })
+            post("http://localhost:8080/BankApi/login", null, temp).then(res => {
+                if(res === true) {
+                    window.state.userid = temp.id
+                    window.state.authorised = true
+                    this.showDashboard()
+                }
+                else {
+                    swal("Ooops", "Something wrong with credentials...", "error")
+                }
+            })
         });
         this.signUpBtn.addEventListener('click', () => {
             this.showRegistration()
