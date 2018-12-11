@@ -1,4 +1,5 @@
 import * as Views from './views'
+import { get, post } from './request'
 
 export default class Display {
 
@@ -77,9 +78,10 @@ export default class Display {
         })
     }
 
-    showAfterRegistration() {
+    showAfterRegistration(id) {
         this.sidebar.classList.remove('visible')
         this.app.innerHTML = this.views.afterRegistration
+        this.app.querySelector('#newId').innerHTML = id
         this.app.querySelector('.button').addEventListener('click', () => {
             this.showTransfer()
         })
@@ -89,7 +91,20 @@ export default class Display {
         this.sidebar.classList.remove('visible')
         this.app.innerHTML = this.views.registration
         this.app.querySelector('.button').addEventListener('click', () => {
-            this.showAfterRegistration()
+            let temp = {}
+            document.querySelectorAll('input').forEach(input => {
+                let key = input.getAttribute("name")
+                let val = input.value
+                temp[key] = val
+            })
+            post("http://localhost:8080/BankApi/newuser", null, temp).then(res => {
+                if(res !== 0) {
+                    this.showAfterRegistration(res)
+                }
+                else {
+                    alert('Problems with registration')
+                }
+            })
         })
     }
     
@@ -118,6 +133,7 @@ export default class Display {
         this.sidebar.innerHTML = this.views.sidebar
         this.sidebarIcons = this.sidebar.querySelectorAll('.sidebar-icon')
         this.addSidebarClicks()
+        this.showLogin()
     }
 
 } 

@@ -81,7 +81,7 @@ export const registration =
         <div class="field">
             <label class="label is-small">Password Repeat</label>
             <div class="control">
-                <input name="password" class="input is-warning" type="password" placeholder="Repeat your password...">
+                <input name="repeatPassword" class="input is-warning" type="password" placeholder="Repeat your password...">
             </div>
         </div>
         <div class="field">
@@ -98,7 +98,7 @@ export const afterRegistration =
       <div class="container">
         <h1 style="font-size:6em"><i class="fas fa-check check"></i></h1>
         <h1 class="title is-size-1">Thanks for registering!</h1>
-        <h1 class="subtitle is-size-3">Your ID is: 124 please remember it for future.</h1>
+        <h1 class="subtitle is-size-3">Your ID is: <span id="newId"></span> please remember it for future.</h1>
         <button class="button is-warning is-medium">Login</button>
     </div>
 </section>
