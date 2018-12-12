@@ -7,7 +7,7 @@ export const login =
 <section class="hero is-fullheight has-text-centered">
     <div class="hero-body">
       <div class="container">
-        <img src="/images/logo.svg" class="logo">
+        <img src="images/logo.svg" class="logo">
         <div class="column is-4 is-offset-4">
             <div class="field">
             <p class="control has-icons-left has-icons-right">
@@ -46,7 +46,7 @@ export const registration =
 <div class="container">
 
     <div class="column has-text-centered">
-        <img src="/images/logo.svg" class="logo top">
+        <img src="images/logo.svg" class="logo top">
     </div>
     
     <hr>
@@ -113,7 +113,7 @@ export const dashboard =
 <div class="container">
 
     <div class="column has-text-centered">
-        <img src="/images/logo.svg" class="logo top">
+        <img src="images/logo.svg" class="logo top">
     </div>
     
     <hr>
@@ -129,7 +129,7 @@ export const transfer =
 <div class="container">
 
     <div class="column has-text-centered">
-        <img src="/images/logo.svg" class="logo top">
+        <img src="images/logo.svg" class="logo top">
     </div>
     
     <hr>
@@ -191,7 +191,7 @@ export const lodgement =
 <div class="container">
 
     <div class="column has-text-centered">
-        <img src="/images/logo.svg" class="logo top">
+        <img src="images/logo.svg" class="logo top">
     </div>
     
     <hr>
@@ -231,7 +231,7 @@ export const withdrawal =
 <div class="container">
 
     <div class="column has-text-centered">
-        <img src="/images/logo.svg" class="logo top">
+        <img src="images/logo.svg" class="logo top">
     </div>
     
     <hr>
