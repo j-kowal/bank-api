@@ -1,4 +1,5 @@
 import { stringify } from 'querystring';
+import swal from 'sweetalert2';
 
 export const get = (url, params = null) => {
     let encoded = stringify(params)
@@ -10,6 +11,9 @@ export const get = (url, params = null) => {
         }
     })
     .then(res => res.json())
+    .catch(() => {
+        swal("Ooops...", "Something went wrong with fetch data from server.", "error")
+    })
 }
 
 export const post = (url, params = null, data = {}) => {
@@ -23,4 +27,7 @@ export const post = (url, params = null, data = {}) => {
         body: JSON.stringify(data)
     })
     .then(res => res.json())
+    .catch(() => {
+        swal("Ooops...", "Something went wrong with fetch data from server.", "error")
+    })
 }
