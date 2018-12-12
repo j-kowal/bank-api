@@ -1,3 +1,7 @@
+/**
+ * DATABASE STUB - will be holding users and accounts in hashmaps
+ */
+
 package pornstartz;
 
 import java.util.*;

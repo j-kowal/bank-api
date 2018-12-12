@@ -7,23 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a59b9748-4082-40f6-925b-fa741dc92ad7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pornstartz/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pornstartz/DatabaseStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pornstartz/DateFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pornstartz/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pornstartz/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pornstartz/UserCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pornstartz/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/CorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pornstartz/CorsFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/MyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/display.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/views.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/views.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/DatabaseStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/DatabaseStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/DateFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/DateFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/UserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/UserCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pornstartz/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pornstartz/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BankApi.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/MyResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BankApi/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/MyResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/DatabaseStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/DatabaseStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/DateFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/DateFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/UserCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/UserCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/UserResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BankApi/WEB-INF/classes/pornstartz/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pornstartz/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/DatabaseStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pornstartz/DatabaseStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/DateFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pornstartz/DateFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pornstartz/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pornstartz/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/UserCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pornstartz/UserCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pornstartz/UserResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pornstartz/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pornstartz/UserService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,23 +73,25 @@
     <session id="990930808">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="23" />
           <entry key="jsp" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="23" />
           <entry key="JSP" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -79,13 +99,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="5372" />
+          <entry key="java" value="7387" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5372" />
+          <entry key="JAVA" value="7387" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="XML" value="4" />
         </counts>
@@ -94,64 +114,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="632">
+              <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserCredentials.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/DateFormatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="2110">
+              <caret line="199" column="1" lean-forward="true" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="e#1910#1911#0" expanded="true" />
+                <element signature="e#2065#2066#0" expanded="true" />
+                <element signature="e#2120#2121#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="22">
+              <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -169,8 +166,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/CorsFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,22 +199,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/DatabaseStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="22">
+              <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserResource.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/DateFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2442">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="22">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserCredentials.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -207,6 +237,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lo</find>
+      <find>lodge</find>
+      <find>trans</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -216,16 +253,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pornstartz/MyResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/pornstartz/DateFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pornstartz/DateFormatter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pornstartz/UserCredentials.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pornstartz/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pornstartz/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pornstartz/DatabaseStub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pornstartz/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pornstartz/Lodgment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pornstartz/Transaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/pornstartz/UserResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pornstartz/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pornstartz/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pornstartz/DatabaseStub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pornstartz/DateFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pornstartz/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pornstartz/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pornstartz/UserCredentials.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pornstartz/UserService.java" />
       </list>
     </option>
   </component>
@@ -271,7 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,50 +316,18 @@
               <item name="bank-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="bank-api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bank-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pornstartz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bank-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544496015380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544579991523" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -490,17 +495,31 @@
       <workItem from="1544476536067" duration="12414000" />
       <workItem from="1544488984332" duration="53000" />
       <workItem from="1544489144430" duration="6870000" />
+      <workItem from="1544552171832" duration="3845000" />
+      <workItem from="1544558465476" duration="3026000" />
+      <workItem from="1544569810033" duration="6670000" />
+      <workItem from="1544580165940" duration="227000" />
+      <workItem from="1544580508272" duration="343000" />
+      <workItem from="1544581415690" duration="1234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19350000" />
+    <option name="totallyTimeSpent" value="34695000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -514,11 +533,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.329718" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.329718" />
@@ -551,95 +570,113 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/DateFormat.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/Lodgment.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="566">
           <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/CorsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/DatabaseStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/DateFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="22">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/Lodgment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/DatabaseStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="22">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserCredentials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="22">
+          <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2442">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="2110">
+          <caret line="199" column="1" lean-forward="true" selection-start-line="199" selection-start-column="1" selection-end-line="199" selection-end-column="1" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pornstartz/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
           </folding>
         </state>
       </provider>

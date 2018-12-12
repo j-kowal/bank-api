@@ -1,6 +1,25 @@
 html {
     background-color: #fafafa !important;
 }
+.container {
+    @media screen and (max-width: 1460px){
+        padding-left: 116px;
+    }
+}
+
+.account-details {
+    background-color: #ff9933;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-btc {
+    margin-right: 4px;
+}
 
 .logo {
     width: 400px;

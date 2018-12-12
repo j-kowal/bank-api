@@ -1,3 +1,7 @@
+/**
+ * TRANSACTION CLASS
+ */
+
 package pornstartz;
 
 public class Transaction {

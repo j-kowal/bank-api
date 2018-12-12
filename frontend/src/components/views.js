@@ -1,3 +1,7 @@
+/*
+ HTML views here - they will be loaded by Display class
+*/
+
 export const login =
 `
 <section class="hero is-fullheight has-text-centered">
@@ -132,13 +136,24 @@ export const transfer =
     <h1 class="title has-text-centered">Transfer</h1>
     <div class="column is-6 is-offset-3">
         <div class="field">
+            <label class="label is-small">Type</label>
+            <div class="control has-icons-left">
+                <div class="select is-warning is-fullwidth">
+                    <select name="type">
+                        <option>debit</option>
+                        <option>credit</option>
+                    </select>
+                </div>
+                <div class="icon is-small is-left">
+                    <i class="fab fa-bitcoin"></i>
+                </div>
+            </div>
+        </div>
+        <div class="field">
             <label class="label is-small">From</label>
             <div class="control has-icons-left">
                 <div class="select is-warning is-fullwidth">
                     <select name="from">
-                    <option selected disabled>Account</option>
-                    <option>125412</option>
-                    <option>5325235</option>
                     </select>
                 </div>
                 <div class="icon is-small is-left">
@@ -158,18 +173,9 @@ export const transfer =
         <div class="field">
             <label class="label is-small">Amount</label>
             <p class="control has-icons-left has-icons-right">
-                <input class="input is-warning" name="amount" type="number" placeholder="Amount...">
+                <input class="input is-warning" name="value" type="number" placeholder="Amount...">
                 <span class="icon is-small is-left">
-                    <i class="fas fa-euro-sign"></i>
-                </span>
-            </p>
-        </div>
-        <div class="field">
-            <label class="label is-small">Message</label>
-            <p class="control has-icons-left has-icons-right">
-                <input class="input is-warning" name="message" type="text" placeholder="Message to beneficiary...">
-                <span class="icon is-small is-left">
-                    <i class="far fa-comment"></i>
+                    <i class="fab fa-btc"></i>
                 </span>
             </p>
         </div>
@@ -196,9 +202,7 @@ export const lodgement =
             <div class="control has-icons-left">
                 <div class="select is-warning is-fullwidth">
                     <select name="to">
-                    <option selected disabled>Account</option>
-                    <option>125412</option>
-                    <option>5325235</option>
+                    
                     </select>
                 </div>
                 <div class="icon is-small is-left">
@@ -209,9 +213,9 @@ export const lodgement =
         <div class="field">
             <label class="label is-small">Amount</label>
             <p class="control has-icons-left has-icons-right">
-                <input class="input is-warning" name="amount" type="number" placeholder="Amount...">
+                <input class="input is-warning" name="value" type="number" placeholder="Amount...">
                 <span class="icon is-small is-left">
-                    <i class="fas fa-euro-sign"></i>
+                    <i class="fab fa-btc"></i>
                 </span>
             </p>
         </div>
@@ -238,9 +242,6 @@ export const withdrawal =
             <div class="control has-icons-left">
                 <div class="select is-warning is-fullwidth">
                     <select name="from">
-                    <option selected disabled>Account</option>
-                    <option>125412</option>
-                    <option>5325235</option>
                     </select>
                 </div>
                 <div class="icon is-small is-left">
@@ -251,9 +252,9 @@ export const withdrawal =
         <div class="field">
             <label class="label is-small">Amount</label>
             <p class="control has-icons-left has-icons-right">
-                <input class="input is-warning" name="amount" type="number" placeholder="Amount...">
+                <input class="input is-warning" name="value" type="number" placeholder="Amount...">
                 <span class="icon is-small is-left">
-                    <i class="fas fa-euro-sign"></i>
+                    <i class="fab fa-btc"></i>
                 </span>
             </p>
         </div>
@@ -270,5 +271,6 @@ export const sidebar =
 <div class="sidebar-icon" data-id="transfer"><i class="fas fa-exchange-alt"></i></div>
 <div class="sidebar-icon" data-id="lodgement"><i class="fab fa-bitcoin"></i></div>
 <div class="sidebar-icon" data-id="withdrawal"><i class="fas fa-money-bill-alt"></i></div>
+<div class="sidebar-icon" data-id="add"><i class="fas fa-plus"></i></div>
 <div class="sidebar-icon" data-id="signout"><i class="fas fa-sign-out-alt"></i></div>
 `

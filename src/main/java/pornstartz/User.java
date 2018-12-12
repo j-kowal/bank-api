@@ -1,3 +1,7 @@
+/**
+ * USER CLASS
+ */
+
 package pornstartz;
 
 import java.util.ArrayList;

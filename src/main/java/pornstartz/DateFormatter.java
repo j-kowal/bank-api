@@ -1,3 +1,7 @@
+/**
+ * CLASS WILL RETURN FORMATED DATE/TIME
+ */
+
 package pornstartz;
 
 import java.text.DateFormat;

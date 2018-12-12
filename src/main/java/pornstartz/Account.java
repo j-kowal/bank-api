@@ -1,3 +1,7 @@
+/**
+ * CLASS ACCOUNT - this class has all the account properties + Transactions ArrayList
+ */
+
 package pornstartz;
 
 import java.util.ArrayList;
@@ -9,6 +13,7 @@ public class Account {
     public ArrayList<Transaction> transactions;
     public static int accCreationId = 100000;
 
+    //constructor
     public Account() {
         this.sortCode = 988022;
         this.currentBalance = 0;
